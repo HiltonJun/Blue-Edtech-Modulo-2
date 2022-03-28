@@ -1,0 +1,58 @@
+h1,h2{
+    color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.container_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.item {
+  justify-self: center;
+  flex-direction: column;
+}
+
+.card {
+  background-color: gray;
+  max-width: 200px;
+  margin: 18px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.card h3 {
+  text-align: center;
+}
+
+.card img {
+  max-width: 200px;
+}
+
+.btm {
+  padding: 10px;
+  width: 100px;
+  color: rgb(226, 231, 235);
+  background-color: black;
+  border: solid 1px rgb(197, 86, 86);
+  border-radius: 5px;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+  transition: background 1s;
+}
+
+.copyright {
+  text-align: center;
+  color: black;
+  font-size: 13px;
+  margin: 20px 0 0;
+}
